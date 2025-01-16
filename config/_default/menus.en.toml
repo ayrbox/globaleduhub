@@ -1,0 +1,55 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Students"
+url = "/students"
+weight = 2
+
+[[main]]
+name = "Partners"
+url = "/parters"
+weight = 3
+
+[[main]]
+weight = 4
+name = "About"
+url = "/about"
+
+[[main]]
+name = "Contact"
+url = "/contact"
+
+
+# footer menu
+[[footer]]
+name = "Students"
+url = "/students"
+weight = 1
+
+[[footer]]
+name = "Partners"
+url = "/parters"
+weight = 2
+
+[[footer]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[footer]]
+name = "Contact"
+url = "/contact"
+weight = 4
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 5
+
+

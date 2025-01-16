@@ -1,0 +1,19 @@
+{
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/profile.php?id=61571904037751/"
+    },
+    {
+      "name": "twitter",
+      "icon": "fab fa-twitter",
+      "link": "https://twitter.com/@globaleduhub"
+    },
+    {
+      "name": "instagram",
+      "icon": "fab fa-instagram",
+      "link": "https://instagram.com/@globaleduhub"
+    }
+  ]
+}
