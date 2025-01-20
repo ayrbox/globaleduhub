@@ -205,7 +205,8 @@ flowchart TD
 
 ### Blockquote
 
-> Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+> Did you come here for something in particular or just general Riker-bashing?
+> And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
 
 <hr>
 
