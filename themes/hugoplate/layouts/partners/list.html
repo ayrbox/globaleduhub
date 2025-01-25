@@ -1,0 +1,25 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <div class="container">
+      <div class="row">
+        <div class="content mt-6">
+          {{ .Content }}
+        </div>
+      </div>
+  </div>
+  <section class="section pt-0">
+    <div class="container">
+      <div class="row">
+        <h4 class="py-8">Our Current Partners</h4>
+      </div>
+      <div class="row">
+        {{ range .RegularPages }}
+          <div class="md:col-6 lg:col-4 mb-14">
+            {{ partial "components/partner-card" . }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}
