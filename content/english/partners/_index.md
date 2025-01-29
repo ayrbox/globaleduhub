@@ -1,7 +1,7 @@
 ---
 title: "Partners"
 meta_title: "Partner with us"
-description: "Gateway to Global Education"
+description: "Experience a streamlined, transparent, and stress-free application process while benefiting from the most competitive commissions in the industry"
 ---
 
 Experience a streamlined, transparent, and stress-free application process while

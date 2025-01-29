@@ -1,6 +1,7 @@
 ---
 title: "Cookie Policy"
-meta_title: "Cookie Policy for Mass Global Ltd"
+meta_title: "Cookie Policy"
+description: Detailed Cookie Policy for www.globaleduhub.co.uk
 ---
 
 ### 1. Introduction

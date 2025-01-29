@@ -1,6 +1,7 @@
 ---
 title: "Privacy Policy"
-meta_title: "Privacy Policy for Mass Global Ltd"
+meta_title: "Privacy Policy"
+description: Detailed Privay Policy for www.globaleduhub.co.uk
 ---
 
 ### 1. Introduction

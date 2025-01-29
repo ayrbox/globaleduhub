@@ -1,6 +1,7 @@
 ---
 title: "Terms & Conditions"
 meta_title: "Terms & Conditions for Mass Global Ltd"
+description: Terms and Condition agreement for www.globaleduhub.co.uk
 ---
 
 ## 1. Introduction

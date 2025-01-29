@@ -1,7 +1,7 @@
 ---
 title: "Students"
-meta_title: "Study with us"
-description: "Gateway to Global Education"
+meta_title: "Students: Study with us"
+description: "Your UK Study Adventure Awaits"
 ---
 
 ### Your UK Study Adventure Awaits

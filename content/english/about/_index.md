@@ -1,7 +1,7 @@
 ---
-title: "About Global Edu Hub"
-meta_title: "About"
-description: "Gateway to Global Education"
+title: "About GlobalEdu Hub"
+meta_title: "About GlobalEdu Hub"
+description: "We are dedicated to supporting students in achieving their aspirations of pursuing higher education abroad"
 image: "/images/global-edu-hub-log.jpg"
 ---
 
