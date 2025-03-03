@@ -1,13 +1,14 @@
 ---
 # Banner
 banner:
-  title: "Welcome to Global Edu Hub"
-  content: "Gateway to Global Education"
+  title: "Gateway to Global Education"
+  bgimage: "/images/background.jpg"
   image: "/images/post-graduate-feature-pic.jpg"
   button:
     enable: true
-    label: "Contact"
+    label: "Register"
     link: "/contact"
+    tagline: Register to explore more
 
 # Features
 features:
