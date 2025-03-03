@@ -1,70 +1,44 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-      <section class="section flex items-center" {{partial "bg-image.html" (dict `Src` .image) | safeHTMLAttr}}>
-      <div class="container">
+    <section class="section flex flex-col items-center relative mb-[250px]" {{partial "bg-image.html" (dict `Src` .bgimage) | safeHTMLAttr}}>
+      <div class="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-slate-700 z-0"></div>
+      <div class="container z-10">
         <div class="row justify-center">
-          <div class="lg:col-7 md:col-9 mb-8 text-center">
-            <h1 class="mb-4 text-h3 lg:text-h1 text-white">
+          <div class="col-12 mb-8 text-center">
+            <h1 class="text-slate-50 text-center py-6 text-5xl font-bold tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-12xl !leading-[1.15] w-full font-heading">
               {{ .title | markdownify }}
             </h1>
-            <p class="mb-8 text-white bold">
+            <p class="mb-8 text-white sm:text-4xl">
               {{ .content | markdownify }}
             </p>
             {{ with .button }}
               {{ if .enable }}
-                <a
-                  class="btn btn-primary"
-                  href="{{ .link | absURL }}"
-                  {{ if strings.HasPrefix .link `http` }}
-                    target="_blank" rel="noopener"
-                  {{ end }}>
-                  {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
-                </a>
-              {{ end }}
-            {{ end }}
-          </div>
+                <div class="flex flex-col">
+                  <div>
+                    <a
+                      class="btn btn-primary"
+                      href="{{ .link | absURL }}"
+                      {{ if strings.HasPrefix .link `http` }}
+                        target="_blank" rel="noopener"
+                      {{ end }}>
+                      {{ .label }}
+                      <i class="fa fa-arrow-right pl-2"></i>
+                    </a>
                   </div>
-      </div>
-    </section>
-  {{ end }}
-  <!-- /Banner -->
-
-
-
-
-
-  <!-- Banner -->
-  {{ with .Params.banner }}
-    <section class="section pt-14">
-      <div class="container">
-        <div class="row justify-center">
-          <div class="lg:col-7 md:col-9 mb-8 text-center">
-            <h1 class="mb-4 text-h3 lg:text-h1">
-              {{ .title | markdownify }}
-            </h1>
-            <p class="mb-8">
-              {{ .content | markdownify }}
-            </p>
-            {{ with .button }}
-              {{ if .enable }}
-                <a
-                  class="btn btn-primary"
-                  href="{{ .link | absURL }}"
-                  {{ if strings.HasPrefix .link `http` }}
-                    target="_blank" rel="noopener"
-                  {{ end }}>
-                  {{ .label }}
-                  <i class="fa fa-arrow-right pl-2"></i>
-                </a>
+                  <p class="text-slate-50">
+                  {{ .tagline }}
+                  </p>
+                </div>
               {{ end }}
-            {{ end }}
           </div>
+          {{ end }}
           <div class="col-12">
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
+            </div>
           </div>
-        </div>
+      </div>
+      <div class="z-10 mb-[-315px]">
+        {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "rounded-lg mx-auto w-[600px] lg:!max-w-[600px]" "DisplayXL" "800x" ) }}
       </div>
     </section>
   {{ end }}
