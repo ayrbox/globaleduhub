@@ -44,6 +44,19 @@
   {{ end }}
   <!-- /Banner -->
 
+  {{ with .Params.Accreditation }}
+  <section>
+    <div class="container">
+      <div class="row justify-center">
+        <div class="col-12 mb-8 text-center flex items-center justify-center">
+          {{ partial "image" (dict "Src" .image "Alt" "British Council" "Loading" "eager" "Class" "w-[200px]" "DisplayXL" "800x" ) }}
+          <span class="text-xl font-bold">{{ .title }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{end}}
+
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
     <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
