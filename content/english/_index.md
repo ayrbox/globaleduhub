@@ -10,6 +10,10 @@ banner:
     link: "/contact"
     tagline: Register to explore more
 
+accreditation:
+  title: British Council Accredited
+  image: "/images/british-council-logo.png"
+
 # Features
 features:
   - title: "Students"
